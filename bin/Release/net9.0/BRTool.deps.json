@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BRTool/1.0.0": {
+        "dependencies": {
+          "System.Management": "10.0.0-preview.2.25163.2"
+        },
+        "runtime": {
+          "BRTool.dll": {}
+        }
+      },
+      "System.CodeDom/10.0.0-preview.2.25163.2": {
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.16302"
+          }
+        }
+      },
+      "System.Management/10.0.0-preview.2.25163.2": {
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.2.25163.2"
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.16302"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.16302"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BRTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.CodeDom/10.0.0-preview.2.25163.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LO2zMEwV9s6nMAs6Tfi23zr4XZ31Yx04ESlTm7tWxpvQB7SVvWrRZouIZu705ENgxconG5s28LaHgnZJoJKGNQ==",
+      "path": "system.codedom/10.0.0-preview.2.25163.2",
+      "hashPath": "system.codedom.10.0.0-preview.2.25163.2.nupkg.sha512"
+    },
+    "System.Management/10.0.0-preview.2.25163.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MOeIlyTlUoHID2tspUV80HwvtcPDrObcd2PFvka5JtNc+iOCF1RQYoXjskbvVUBPgaXCIPQu6fbRl52fdFm20w==",
+      "path": "system.management/10.0.0-preview.2.25163.2",
+      "hashPath": "system.management.10.0.0-preview.2.25163.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish BRTool to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish configuration="Release" platform="Any CPU" produce_single_file="true" ready_to_run="true" runtime="win-x64" self_contained="true" target_folder="$USER_HOME$/OneDrive/Рабочий стол/BRTool" target_framework="net9.0" uuid_high="-7040338248549643798" uuid_low="-7234183455690999920" />
+    <method v="2" />
+  </configuration>
+</component>
